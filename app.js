@@ -10,7 +10,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: "https://frontend-gym-blue.vercel.app/send/email",
+    origin: "https://frontend-gym-blue.vercel.app",
     methods: ["POST"],
     credentials: true,
   })
